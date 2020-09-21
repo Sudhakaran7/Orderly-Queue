@@ -1,0 +1,49 @@
+A string S of lowercase letters is given.  Then, we may make any number of moves.
+In each move, we choose one of the first K letters (starting from the left), remove it, and place it at the end of the string.
+Return the lexicographically smallest string we could have after any number of moves.
+
+Input Description:
+A string S and a integer K in a single line.(1<K<1000)
+
+Output Description:
+Print the lexicographically smallest string we could have after any number of moves.
+
+Sample Input:
+cba 1
+
+Sample Output:
+acb
+
+Explanation:
+In the first move, we move the 1st character ("c") to the end, obtaining the string "bac".
+In the second move, we move the 1st character ("b") to the end, obtaining the final result "acb".
+
+Sample Input:
+guvi 2
+
+Sample Output:
+giuv
+
+Sample Input:
+aswe 1
+
+Sample Output:
+aswe
+
+Sample Input:
+kilo 2
+
+Sample Output:
+iklo
+
+Sample Input:
+helloworld 3
+
+Sample Output:
+dehllloorw
+
+Sample Input:
+miniworld 1
+
+Sample Output:
+dminiworl
